@@ -10,10 +10,10 @@ class Ball extends Component {
     setTimeout(async () => {
       this.changeNow();
       this.changePostion();
-    }, 1000);
+    }, 3000);
   };
   changeNow = async () => {
-    const xNew = this.getRandomPosition(0, 450) + "px"; 
+    const xNew = this.getRandomPosition(0, 450) + "px";
     const yNew = this.getRandomPosition(0, 450) + "px";
 
     await this.setState({
