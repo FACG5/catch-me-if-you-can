@@ -1,0 +1,12 @@
+.div-contanier {
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.h1-contanier {
+    text-align: center;
+    color: blueviolet;
+}

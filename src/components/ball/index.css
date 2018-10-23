@@ -1,0 +1,11 @@
+.button-ball {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    position: absolute;
+
+}
