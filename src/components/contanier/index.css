@@ -2,11 +2,15 @@
 .h1-contanier {
   margin-top: 20px;
     text-align: center;
-    color: #515BAC;
+    color: #B30C9E;
+}
+.h2-contanier{
+  text-align: center;
+  color: #92D834;
 }
 .t-contanier{
   text-align: center;
-  color: #515BAC;
+  color: #1E8BCC;
 }
 .div-contanier {
     margin: 20px auto;
@@ -14,7 +18,8 @@
     height: 500px;
     width: 500px;
     position: relative;
-  background-image: url(http://www.theappguruz.com/app/uploads/2015/06/draw-more-few-cloud.png);
+    background-image: url(https://upload.wikimedia.org/wikipedia/ko/8/81/Sky_flowers_in_Spongebob_Squarepants.jpg);
+  /* background-image: url(http://www.theappguruz.com/app/uploads/2015/06/draw-more-few-cloud.png); */
     /* background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/cute-cloud-background-1.jpg); */
     /* background-image: url(https://previews.123rf.com/images/lightvisionftb/lightvisionftb1602/lightvisionftb160200026/53159045-underwater-cartoon-world-blue-sea-landscape-starfish-vector-illustration.jpg); */
     /* background-image: url("img/sea.jpg"); */
@@ -28,4 +33,18 @@
   text-align: center;
   color: red;
 
+}
+
+.div-img {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.div-img img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 530px;
 }

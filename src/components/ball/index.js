@@ -38,9 +38,7 @@ class Ball extends Component {
         onClick={() => this.props.onClick(this.changeNow)}
         className="ball bubble"
         style={{ top: this.state.y, left: this.state.x }}
-      >
-      <img src={this.props.picture} />
-      </button>
+      ></button>
       </div>
 
     );

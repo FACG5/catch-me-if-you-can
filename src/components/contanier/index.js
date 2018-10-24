@@ -41,21 +41,24 @@ componentWillMount() {
 
     if(this.state.endGame){
       return(
-          <React.Fragment>
+        <React.Fragment>
         <h1 className="game-result">
         Game Over!
         </h1>
-      <h2 className="t-contanier">Your Score: {this.state.score}</h2>
+        <h2 className="t-contanier">Your Score: {this.state.score}</h2>
+        <div className="div-img">
+          <img src="http://pngimg.com/uploads/spongebob/spongebob_PNG45.png" alt="0" />
+        </div>
         </React.Fragment>
       )
     }
     return (
       <React.Fragment>
         <h1 className="h1-contanier">Welcome {this.props.name}</h1>
-        <h2 className="t-contanier">The Score: {this.state.score}</h2>
+        <h2 className="h2-contanier">The Score: {this.state.score}</h2>
         <h3 className="t-contanier">Timer: {this.state.timer}</h3>
         <div className="div-contanier">
-          <Ball onClick={this.getBall} picture={this.props.picture}/>
+          <Ball onClick={this.getBall}/>
         </div>
       </React.Fragment>
     );
