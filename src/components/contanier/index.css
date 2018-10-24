@@ -1,16 +1,30 @@
+
+.h1-contanier {
+  margin-top: 20px;
+    text-align: center;
+    color: #515BAC;
+}
+.t-contanier{
+  text-align: center;
+  color: #515BAC;
+}
 .div-contanier {
-    margin: 100px auto;
+    margin: 20px auto;
     border: 1px solid #ccc;
     height: 500px;
     width: 500px;
     position: relative;
+  background-image: url(http://www.theappguruz.com/app/uploads/2015/06/draw-more-few-cloud.png);
+    /* background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/cute-cloud-background-1.jpg); */
+    /* background-image: url(https://previews.123rf.com/images/lightvisionftb/lightvisionftb1602/lightvisionftb160200026/53159045-underwater-cartoon-world-blue-sea-landscape-starfish-vector-illustration.jpg); */
+    /* background-image: url("img/sea.jpg"); */
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
-.h1-contanier {
-    text-align: center;
-    color: blueviolet;
-}
 .game-result{
+  margin-top: 150px;
   text-align: center;
   color: red;
 
